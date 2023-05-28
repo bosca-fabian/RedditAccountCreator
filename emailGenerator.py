@@ -10,7 +10,7 @@ def generate_email():
                    "server": "server-1", "type": "real"}
 
     headers = {
-        "X-RapidAPI-Key": "0ad232626emsh60a0f07571254d3p1ab7ffjsne43fecff0dae",
+        "X-RapidAPI-Key": "",
         "X-RapidAPI-Host": "temp-gmail.p.rapidapi.com"
     }
 

@@ -11,8 +11,8 @@ def captchaSolver(driver):
 
     print('Solving captcha...')
     # time.sleep(randint(10, 15))
-    apiKey = '598c0ebfaf196139a46c79dca71a2dc0'  # Add your API key here!
-    siteKey = '6LeTnxkTAAAAAN9QEuDZRpn90WwKk_R1TRW_g-JC'
+    apiKey = ''  # Add your API key here!
+    siteKey = ''
     pageUrl = 'https://www.reddit.com/register/'
     requestUrl = 'https://2captcha.com/in.php?key=' + apiKey + '&method=userrecaptcha&googlekey=' + siteKey + '&pageurl=' + pageUrl
     print('Requesting 2captcha API...')
